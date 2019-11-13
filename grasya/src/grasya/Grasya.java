@@ -24,7 +24,7 @@ class App extends TimerTask {
     @Override
     public void run() {
         countdown = countdown - 1;
-        System.out.println(countdown);
+        //System.out.println(countdown);
         //label.setText(countdown +"second's left");
     }
 
